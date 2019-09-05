@@ -7,7 +7,7 @@ export class Piscina {
     }
 
     area () : number {
-        return (3.14 * (this.raio()*this.raio()))
+        return (3.14159 * (this.raio()*this.raio()))
     }
 
     custoTotal () : number {
