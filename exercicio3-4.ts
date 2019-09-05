@@ -1,10 +1,6 @@
 let numero:number =2
-let fParImpar = function (num:number) :number {
-    return num%2;
+let fParImpar = function (num:number) : boolean {
+   return num % 2 == 0
 }  
-    if (fParImpar(numero) == 0) {
-        console.log (`Esse número é par: ${numero}`)
-    }
-    else {
-        console.log (`Esse número é ímpar: ${numero}`)
-    }
+console.log (`${fParImpar(numero)}`)
+   
